@@ -1,0 +1,87 @@
+/* portfolio.css */
+
+/* Portfolio Section */
+#portfolio {
+    padding: 40px 50px;
+    background-color: #121212;
+}
+
+#portfolio-filters {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+#portfolio-filters button {
+    background-color: transparent;
+    border: 2px solid #3498db;
+    color: #3498db;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0 10px;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+}
+
+#portfolio-filters button:hover {
+    background-color: #3498db;
+    color: #fff;
+}
+
+/* Portfolio Items */
+#portfolio-items {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 30px;
+    padding-top: 20px;
+}
+
+.portfolio-item {
+    background-color: #1f1f1f;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.portfolio-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.7);
+}
+
+.portfolio-item img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.portfolio-item-content {
+    padding: 20px;
+}
+
+.portfolio-item-content h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.portfolio-item-content p {
+    font-size: 14px;
+    color: #bbb;
+    margin-bottom: 20px;
+}
+
+.portfolio-item-content a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.portfolio-item-content a:hover {
+    color: #fff;
+}
