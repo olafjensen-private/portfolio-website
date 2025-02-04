@@ -1,0 +1,23 @@
+{
+  "categories": [
+    {
+      "name": "Personal Projects",
+      "slug": "personal",
+      "projects": [
+        {
+          "title": "Mine Sweeper",
+          "description": "A web application for the mine sweeper game.",
+          "image": "https://d2t1xqejof9utc.cloudfront.net/screenshots/pics/ca7a03048ed3806fe5a12e3fdfb24876/large.jpg",
+          "link": "PROJETCS/Minesweeper/index.html"
+        }
+      ]
+    },
+    {
+      "name": "School Projects",
+      "slug": "school",
+      "projects": [
+
+      ]
+    }
+  ]
+}
